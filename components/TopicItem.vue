@@ -68,11 +68,11 @@
             this.$emit('played', av)
           } else {
             av.pause()
-            this.$emit('paused', av)
+            this.$emit('paused')
           }
         }
       },
-      playCallBack() {
+      playCallBack(e) {
         this.avStatus = 'pause'
       },
       pauseCallBack() {

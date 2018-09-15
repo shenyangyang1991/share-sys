@@ -60,12 +60,13 @@
         }
       },
       playCallback(av) {
+        if (this.av === av) return
         if (this.av) {
           this.av.pause()
         }
         this.av = av
       },
-      pauseCallback(av) {
+      pauseCallback() {
         this.av = null
       }
     },
