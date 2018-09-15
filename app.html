@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+<head>
+  {{ HEAD }}
+  <script>
+    (function (w, $) {
+      var mode = 'dev', ele = $.documentElement, evt = 'orientationchange' in w ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var cw = ele.clientWidth || $.body.clientWidth || 375;
+          ele.style.fontSize = 100 * (cw / 750) + 'px';
+        };
+      recalc();
+      mode == 'dev' && w.addEventListener && w.addEventListener(evt, recalc, false);
+    })(window, document);
+  </script>
+</head>
+<body {{ BODY_ATTRS }}>
+{{ APP }}
+</body>
+</html>
