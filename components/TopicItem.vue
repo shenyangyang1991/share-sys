@@ -188,7 +188,7 @@
     position: relative;
     width: 100%;
     height: 1.8rem;
-    padding: 0.3rem 0 0;
+    margin: 0.3rem 0 0;
     border-radius: 0.06rem;
     overflow: hidden;
   }
