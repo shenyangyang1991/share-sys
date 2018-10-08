@@ -49,7 +49,7 @@
     width: 7.5rem;
     height: 4.22rem;
 
-    background: url('http://pf1ahai39.bkt.clouddn.com/share/v1/subject-helper.png') no-repeat;
+    background: url('https://static.hfc.highfaner.com/share/v1/subject-helper.png') no-repeat;
     background-size: 7.5rem, 4.22rem;
   }
 

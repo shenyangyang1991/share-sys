@@ -2,7 +2,7 @@
   <div id="app">
     <nuxt/>
     <div layout layout-align="start center" class="hfc-download">
-      <img class="hfc-logo" src="http://pf1ahai39.bkt.clouddn.com/share/v1/hfc-logo.png"/>
+      <img class="hfc-logo" src="https://static.hfc.highfaner.com/share/v1/hfc-logo.png"/>
       <div layout="column" flex layout-align="space-between start" class="hfc-desc">
         <span class="hfc-title">嗨范儿社区</span>
         <span class="hfc-profile">全球最大的青年文化社交网络</span>

@@ -54,7 +54,7 @@
     name: 'TopicItem',
     data() {
       return {
-        defaultAvatar: 'http://pf1ahai39.bkt.clouddn.com/share/v1/avatar.png',
+        defaultAvatar: 'https://static.hfc.highfaner.com/share/v1/avatar.png',
         avStatus: 'play',
       }
     },
@@ -166,13 +166,14 @@
   }
 
   .topic-item .topic-context {
-    padding: 0.3rem 0;
+    padding: 0.3rem 0 0;
     font-size: 0.32rem;
     font-weight: 500;
     color: #383838;
   }
 
   .topic-item .topic-poster {
+    padding: 0.3rem 0 0;
     border-radius: 0.06rem;
     overflow: hidden;
   }
@@ -187,6 +188,7 @@
     position: relative;
     width: 100%;
     height: 1.8rem;
+    padding: 0.3rem 0 0;
     border-radius: 0.06rem;
     overflow: hidden;
   }
@@ -214,14 +216,14 @@
   .voice-mask .icon-play {
     width: .48rem;
     height: .48rem;
-    background: url('http://pf1ahai39.bkt.clouddn.com/share/v1/icon-play.png') no-repeat;
+    background: url('https://static.hfc.highfaner.com/share/v1/icon-play.png') no-repeat;
     background-size: 0.48rem 0.48rem;
   }
 
   .voice-mask .icon-pause {
     width: .48rem;
     height: .48rem;
-    background: url('http://pf1ahai39.bkt.clouddn.com/share/v1/icon-pause.png') no-repeat;
+    background: url('https://static.hfc.highfaner.com/share/v1/icon-pause.png') no-repeat;
     background-size: 0.48rem 0.48rem;
   }
 
@@ -257,13 +259,13 @@
   }
 
   .topic-action .action-liker {
-    background: url('http://pf1ahai39.bkt.clouddn.com/share/v1/icon-liker.png') no-repeat;
+    background: url('https://static.hfc.highfaner.com/share/v1/icon-liker.png') no-repeat;
     background-position: center center;
     background-size: 0.48rem 0.44rem;
   }
 
   .topic-action .action-comment {
-    background: url('http://pf1ahai39.bkt.clouddn.com/share/v1/icon-comment.png') no-repeat;
+    background: url('https://static.hfc.highfaner.com/share/v1/icon-comment.png') no-repeat;
     background-position: center center;
     background-size: 0.46rem 0.46rem;
   }
